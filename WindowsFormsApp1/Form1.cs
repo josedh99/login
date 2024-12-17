@@ -15,6 +15,7 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            Data.Conection.OpenConection();
         }
 
         private void button1_Click(object sender, EventArgs e)
